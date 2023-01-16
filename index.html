@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- reset.css boiler plate -->
+    <!-- <link rel="stylesheet" href="./styless/reset.css"> -->
+</head>
+<body>
+    <header class="desktop-header">
+        <div class="top-section">
+            <div>
+                <div class="line-1"></div>
+                <div class="line-1"></div>
+                <div class="line-1"></div>
+            </div>
+            
+            <div class="left-panel">
+                    <img class="header-logo" src="./assets/header-logo.png" alt="">
+                </div>
+                <div class="right-panel">
+                    <ul class="info">
+                        <li class="vehicles">VEHICLES</li>
+                        <li class="faqs">FAQS</li>
+                        <li class="contact">CONTACT US</li>
+                        <li>
+                            <img class="country-flag" src="/assets/united-arab-emirates.png" alt="">
+                        </li>
+                        <li>
+                            <div class="sign-in-btn">
+                                <img src="./assets//user.png" alt="">
+                                <a href="#">sign in</a>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+        </div>
+          <div class="mid-section">
+              <img src="/assets/icons8-search-30.png" alt="">
+                  <input class="search-bar" type="text" placeholder="Toyota Camry 2020">
+                          <select class="header-select" name="cars" id="">
+                            <option value="volvo">By Time</option>
+                              <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                  <option value="audi">Audi</option>
+                         </select>
+                                 <div class="header-icons">
+                                        <img src="/assets/icons8-grid-2-24.png" alt="">
+                                         <img src="/assets/icons8-list-30.png" alt="">
+                                 </div>
+                                    </div>
+        <div class="bottom-section">
+            <div>
+                <select class="damage-type" id="">
+                    <option value="Damage Type">Damage Type</option>
+                    
+                    <option value="saab">camry</option>
+                    <option value="mercedes">toyota</option>
+                    <option value="audi">se</option>
+                </select>
+            </div>
+            <div class="checkboxes">
+                <div   class="show-favourites"> 
+                    <img src="./assets/star.png" alt="">
+                    <label  for="">Show Favourites</label>
+                </div>
+                <div class="live-auctions">
+                    <input type="checkbox" name="" id="">
+                    <label for="">live Auctions</label>
+                </div>
+                <div class="coming-soon">
+                    <input type="checkbox" name="" id="">
+                    <label for="">Coming Soon</label>
+                </div>
+                <div class="ended-auctions">
+                    <input type="checkbox" name="" id="" checked    >
+                    <label for="">Ended Auctions</label>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-header-section">
+            <div>
+             <select class="options-menu">
+                <option class="damage-type-header" value="damage type">Damage Type</option>
+                <option value="toyota se">Toyota SE</option>
+                <option value="toyota xse">Toyota XSE</option>
+                <option value="toyota">Toyota</option>
+            </select>
+            </div>
+            <div class="mobile-header-images">
+                    <div>
+                    <img class="star" src="./assets/star.png" alt="star icon">
+                    </div>
+                        <div>
+                        <img src="./assets/icons8-grid-2-24.png" alt="medium icon">
+                        </div>
+                            <div>
+                            <img src="./assets/icons8-list-30.png" alt="checklist icon">
+                            </div>
+            </div>
+                  </div>
+    </header>
+
+    <section>
+        <div class="cars-section">
+
+            <div class="car-filter">
+                <div class="select-menu">
+                    <select name="" id="">
+                        <option value="make">Make</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="model"> Model</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="city"> City</option>
+                    </select>
+                </div>
+                
+                    <div class="from-to">
+                        <select  name="" id="">
+                            <option value=""> From</option>        
+                        </select>
+                        <select  name="" id="">
+                            <option value=""> To</option>    
+                        </select>
+                    </div>
+
+                        <div class="auction_id-current_bid" >
+                            <input type="text" placeholder="Auction ID">
+                            <label for="">Current Bid</label>
+                            <input class="range" type="range" placeholder="Current Bid">
+                            <div class="dollar">
+                                <p>$0</p>
+                                <p>$10,000+</p>
+                            </div>
+                        </div>
+                       
+                        <button class="search-btn">
+                            <img src="./assets/search.png" alt="">
+                            Search</button>
+            </div>
+                <div class="cars">
+
+                    <!-- left cards -->
+                 <div class="four-cards" >
+                            <div class="carone-cartwo">  
+                                <!-- car 1 -->
+                            <div class="toyota-camry-1">
+                                <div class="date-time">
+                                    Thursday 12 Dec 2019 - 15:10
+                                </div>
+                                <img src="./assets/2019-Toyota-Camry.png" alt="">
+                                <div class="name-year">
+                                    <p>Toyota camry SE</p>
+                                    <p>2019</p>
+                                </div>
+                                <div class="accident-views">
+                                    <div class="accident">
+                                        <img src="./assets/overturned-vehicle.png" alt="">
+                                        <p>Accident</p>
+                                    </div>
+                                <div class="views">
+                                    <img src="./assets/visible.png" alt="">
+                                    <p>
+                                        7,732 <span>Views</span>
+                                    </p>
+                                </div>
+                                
+                                </div>
+                                <div class="car-location">
+                                    <img src="./assets/pin.png" alt="">
+                                    <div>
+                                        <p class="location">Location</p>
+                                        <p>Riyadh Yard, Saudi Arabia</p>
+                                    </div>
+                                </div>
+                                <div class="sold-buy">
+                                    
+                                    <img src="./assets/law.png" alt="">
+                                    <div class="sold-for">
+                                        <p>sold for</p>
+                                        <p>23,911  <span class="sar">sar</span></p>
+    
+                                    </div>
+                                    <div class="hr-line"></div>
+    
+                                    <img src="./assets/money.png" alt="">
+                                    <div class="buy-now">
+                                        <p>buy now</p>
+                                        <p>23,911  <span class="sar">sar</span></p>
+    
+                                    </div>
+                                    
+                                </div>
+                                <div class="view-3-bids">
+                                    <a >
+                                        View 3 bids
+                                    </a>
+                                    <p><i class="arrow down"></i></p>
+                                </div>
+                                
+                
+                            </div>
+                            <!-- car 2 -->
+                            <div class="toyota-camry-1">
+                                <div class="date-time">
+                                    Thursday 12 Dec 2019 - 15:10
+                                </div>
+                                <img src="./assets/2019-toyota-camry.png" alt="">
+    
+                                <div class="name-year">
+                                    <p>Toyota camry SE</p>
+                                    <p>2019</p>
+                                </div>
+                                <div class="accident-views">
+                                    <div class="accident">
+                                        <img src="./assets/overturned-vehicle.png" alt="">
+                                        <p>Accident</p>
+                                    </div>
+                                <div class="views">
+                                    <img src="./assets/visible.png" alt="">
+                                    <p>
+                                        10,203 <span>Views</span>
+                                    </p>
+                                </div>
+                                
+                                </div>
+                                <div class="car-location">
+                                    <img src="./assets/pin.png" alt="">
+                                    <div>
+                                        <p class="location">Location</p>
+                                        <p>Dammam, Saudi Arabia</p>
+                                    </div>
+                                </div>
+                                <div class="sold-buy">
+                                    
+                                    <img src="./assets/law.png" alt="">
+                                    <div class="sold-for">
+                                        <p>sold for</p>
+                                        <p>21,231  <span class="sar">sar</span></p>
+    
+                                    </div>
+                                    <div class="hr-line"></div>
+    
+                                    <img src="./assets/money.png" alt="">
+                                    <div class="buy-now">
+                                        <p>buy now</p>
+                                        <p>25,621  <span class="sar">sar</span></p>
+    
+                                    </div>
+                                </div>
+                                <div class="view-3-bids">
+                                    <a >
+                                        View 3 bids
+                                    </a>
+                                    <p><i class="arrow down"></i></p>
+                                </div>
+                
+                            </div></div>
+
+                         <div class="carthree-carfour">
+                                  <!-- car 4 -->
+                           <div class="toyota-camry-1">
+                            <div class="date-time">
+                                Thursday 12 Dec 2008 - 15:10
+                            </div>
+                            <img src="./assets/2019-Toyota-Camry.png" alt="">
+                            
+                            <div class="name-year">
+                                <p>Toyota camry SE</p>
+                                <p>2008</p>
+                            </div>
+                            <div class="accident-views">
+                                <div class="accident">
+                                    <img src="./assets/overturned-vehicle.png" alt="">
+                                    <p>Accident</p>
+                                </div>
+                               <div class="views">
+                                <img src="./assets/visible.png" alt="">
+                                <p>
+                                    7,732 <span>Views</span>
+                                </p>
+                               </div>
+                               
+                            </div>
+                                <div class="car-location">
+                                    <img src="./assets/pin.png" alt="">
+                                    <div>
+                                        <p class="location">Location</p>
+                                        <p>Riyadh Yard, Saudi Arabia</p>
+                                    </div>
+                                </div>
+                            
+                            <div class="sold-buy">
+                                
+                                <img src="./assets/law.png" alt="">
+                                <div class="sold-for">
+                                    <p>sold for</p>
+                                    <p>8,911 <span class="sar">sar</span></p> 
+                                </div>
+                                <div class="hr-line"></div>
+                                <img src="./assets/money.png" alt="">
+                                <div class="buy-now">
+                                    <p>buy now</p>
+                                    <p>10,500  <span class="sar">sar</span></p>
+                                </div>
+                            </div>
+                            <div class="view-3-bids">
+                                <a >
+                                    View 3 bids
+                                </a>
+                                <p><i class="arrow down"></i></p>
+                            </div>
+            
+                        </div>
+                        <!-- car 5  -->
+                        <div class="toyota-camry-1">
+                            <div class="date-time">
+                                Thursday 12 Dec 2008 - 15:10
+                            </div>
+                            <img src="./assets/2019-toyota-camry.png" alt="">
+
+                            <div class="name-year">
+                                <p>Toyota camry SE</p>
+                                <p>2008</p>
+                            </div>
+                            <div class="accident-views">
+                                <div class="accident">
+                                    <img src="./assets/overturned-vehicle.png" alt="">
+                                    <p>Accident</p>
+                                </div>
+                               <div class="views">
+                                <img src="./assets/visible.png" alt="">
+                                <p>
+                                    7,732 <span>Views</span>
+                                </p>
+                               </div>
+                               
+                            </div>
+                                <div class="car-location">
+                                    <img src="./assets/pin.png" alt="">
+                                    <div>
+                                        <p class="location">Location</p>
+                                        <p>Riyadh Yard, Saudi Arabia</p>
+                                    </div>
+                                </div>
+                            
+                            <div class="sold-buy">
+                                
+                                <img src="./assets/law.png" alt="">
+                                <div class="sold-for">
+                                    <p>sold for</p>
+                                    <p>8,911 <span class="sar">sar</span></p> 
+                                </div>
+                                <div class="hr-line"></div>
+                                <img src="./assets/money.png" alt="">
+                                <div class="buy-now">
+                                    <p>buy now</p>
+                                    <p>10,500  <span class="sar">sar</span></p>
+                                </div>
+                            </div>
+                            <div class="view-3-bids">
+                                <a >
+                                    View 3 bids
+                                </a>
+                                <p><i class="arrow down"></i></p>
+                            </div>
+            
+                        </div>
+                            </div>
+                             
+                  </div>
+                      
+                   <!-- right cards -->
+                       <div class="two-cards">
+                             <!-- car 3 -->
+                        <div class="toyota-camry-1">
+                            <div class="date-time">
+                                Thursday 12 Dec 2008 - 15:10
+                            </div>
+                            <img src="./assets/toyota_Camry-Hybrid_2009.png" alt="">
+                            <div class="name-year">
+                                <p>Toyota camry SE</p>
+                                <p>2008</p>
+                            </div>
+                            <div class="accident-views">
+                                <div class="accident">
+                                    <img src="./assets/overturned-vehicle.png" alt="">
+                                    <p>Accident</p>
+                                </div>
+                               <div class="views">
+                                <img src="./assets/visible.png" alt="">
+                                <p>
+                                    7,732 <span>Views</span>
+                                </p>
+                               </div>
+                               
+                            </div>
+                                <div class="car-location">
+                                    <img src="./assets/pin.png" alt="">
+                                    <div>
+                                        <p class="location">Location</p>
+                                        <p>Riyadh Yard, Saudi Arabia</p>
+                                    </div>
+                                </div>
+                            
+                            <div class="sold-buy">
+                                
+                                <img src="./assets/law.png" alt="">
+                                <div class="sold-for">
+                                    <p>sold for</p>
+                                    <p>8,911 <span class="sar">sar</span></p> 
+                                </div>
+                                <div class="hr-line"></div>
+                                <img src="./assets/money.png" alt="">
+                                <div class="buy-now">
+                                    <p>buy now</p>
+                                    <p>10,500  <span class="sar">sar</span></p>
+                                </div>
+                            </div>
+                            <div class="view-3-bids-car3">
+                                <a >
+                                    View 3 bids
+                                </a>
+                                <p><i class="arrow down"></i></p>
+                            </div>
+                            <div class="name-year">
+                                <div class="new-year-upper">
+                                    <img class="calender" src="./assets/calendar.png" alt="">
+                                    <p>10 Dec 2019 - 20:05</p>
+                                </div>
+                                <div class="new-year-lower">
+                                    <p>1.</p>
+                                    <p>JOVANA MILIC</p>
+                                    <p>10,500SAR</p>
+                                </div>
+                               
+                            </div>
+                            <div class="name-year">
+                                <div class="new-year-upper">
+                                    <img class="calender" src="./assets/calendar.png" alt="">
+                                    <p>10 Dec 2019 - 20:05</p>
+                                </div>
+                                <div class="new-year-lower">
+                                    <p>1.</p>
+                                    <p>JOVANA MILIC</p>
+                                    <p>10,500SAR</p>
+                                </div>
+                               
+                            </div>
+                            <div class="name-year">
+                                <div class="new-year-upper">
+                                    <img class="calender" src="./assets/calendar.png" alt="">
+                                    <p>10 Dec 2019 - 20:05</p>
+                                </div>
+                                <div class="new-year-lower">
+                                    <p>1.</p>
+                                    <p>JOVANA MILIC</p>
+                                    <p>10,500SAR</p>
+                                </div>
+                               
+                            </div>
+            
+                        </div>
+                         <!-- car 6 -->
+                         <div class="toyota-camry-1">
+                            <div class="date-time">
+                                Thursday 12 Dec 2008 - 15:10
+                            </div>
+                            <img src="./assets/2019-Toyota-Camry.png" alt="">
+
+                            <div class="name-year">
+                                <p>Toyota camry SE</p>
+                                <p>2008</p>
+                            </div>
+                            <div class="accident-views">
+                                <div class="accident">
+                                    <img src="./assets/overturned-vehicle.png" alt="">
+                                    <p>Accident</p>
+                                </div>
+                               <div class="views">
+                                <img src="./assets/visible.png" alt="">
+                                <p>
+                                    7,732 <span>Views</span>
+                                </p>
+                               </div>
+                               
+                            </div>
+                                <div class="car-location">
+                                    <img src="./assets/pin.png" alt="">
+                                    <div>
+                                        <p class="location">Location</p>
+                                        <p>Riyadh Yard, Saudi Arabia</p>
+                                    </div>
+                                </div>
+                            
+                            <div class="sold-buy">
+                                
+                                <img src="./assets/law.png" alt="">
+                                <div class="sold-for">
+                                    <p>sold for</p>
+                                    <p>8,911 <span class="sar">sar</span></p> 
+                                </div>
+                                <div class="hr-line"></div>
+                                <img src="./assets/money.png" alt="">
+                                <div class="buy-now">
+                                    <p>buy now</p>
+                                    <p>10,500  <span class="sar">sar</span></p>
+                                </div>
+                            </div>
+                            <div class="view-3-bids">
+                                <a >
+                                    View 3 bids
+                                </a>
+                                <p><i class="arrow down"></i></p>
+                            </div>
+            
+                        </div>
+                       </div>
+                       
+                </div>
+ 
+        </div>
+    </section>
+    <div class="pagination">
+  <a href="#">&laquo;</a>
+  <a class="active" href="#">1</a>
+  <a  href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a  href="#">5</a>
+  <a class="page" href="#">6</a>
+  <a class="page" href="#">7</a>
+  <a class="page" href="#">8</a>
+  <a class="page" href="#">9</a>
+  <a class="page" href="#">10</a>
+  <a class="page" href="#">11</a>
+  <a class="page" href="#">12</a>
+  <a  href="#">&raquo;</a>
+</div>
+    <footer>
+        <div class="footer-section">
+             
+                <picture>
+                    <source media="(max-width:767px)" srcset="./assets/footer-logo.png">
+                    <img class="footer-default-logo" src="./assets/header-logo.png" alt="" >
+                    <div class="terms-faqs">
+                        <div class="mobile-terms-conditions">
+                            <p>Terms & Conditions</p>
+                            <p>Faqs</p></div>
+                      </div>
+                  </picture>
+                        <div class="terms-conditions">
+                             <ul>
+                                <li>TERMS & CONDITIONS</li>
+                                <li class="privacy-policy">PRIVACY POLICY</li>
+                                <li>FAQS</li>
+                            </ul>
+                        </div>
+                            <div class="questions">
+                                QUESTIONS? <a href=""> SUPPORT@CARMAZAD.COM</a>
+                            </div>
+                                <div class="social-media">
+                                    <div class="media">
+                                        <img src="./assets/instagram.png" alt="">
+                                        <img src="./assets/facebook.png" alt="">
+                                        <img src="./assets/twitter.png" alt="">
+                                        <div class="footer-rectangle">
+                                            <i class="fa">&#xf0e0;</i>
+                                        </div>
+                                    </div>
+                                        <div class="rasan-product">
+                                            <p>RASAN PRODUCT</p>
+                                        </div>
+                                </div>
+                                
+        </div>
+
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
